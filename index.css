@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+
+.white {
+  background: white;
+}
+
+.black {
+  background: #3f3f3f;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* hero */
+
+.hero {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  width: 20rem;
+  padding: 2rem;
+}
+
+/* Nav */
+
+.main-head {
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: darkviolet;
+}
+.titlebottom {
+  text-align: center;
+  color: darkviolet;
+}
+.tutorials {
+  display: inline-block;
+  font-size: 3rem;
+  color: transparent;
+  background: linear-gradient(rgb(89, 230, 255), limegreen);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.tutorials:hover {
+  color: transparent;
+  text-decoration: underline limegreen;
+}
+/*thx programming boi shoutout*/
